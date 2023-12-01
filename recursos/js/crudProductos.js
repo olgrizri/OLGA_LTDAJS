@@ -364,7 +364,7 @@ function guardarCambios() {
         }
     };
 
-    for(var i = 0; i < 60; i++){
+  
 
         xhr.open("POST", "http://localhost/OLGA_LTDAJS/controllers/peticiones.php", true);
         xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
@@ -385,7 +385,7 @@ function guardarCambios() {
             "&operacion=na"
         );
     }
-}
+
 
 function eliminarProducto(codigo) {
 
