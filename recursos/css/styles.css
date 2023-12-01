@@ -1,0 +1,158 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 19px;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+#main-content {
+    padding: 15px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #7c887c;
+    color: white;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+input, select, textarea {
+    margin-bottom: 8px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+
+section {
+  margin-bottom: 20px;
+}
+
+#product-create-form {
+  height: 100%;
+  width: 100%;
+}
+
+
+#product-proveedor, #product-Garantia, #product-FechaF, #product-ValorVenta, #product-Valorcosto, #product-Cantidad, #product-origenP, #product-tipoProducto, #product-marca, #product-nombre, #product-codigo {
+  font-size: 10px;
+  
+  height: 40%;
+}
+
+
+p {
+  margin: 0;
+  line-height: 1;
+}
+
+#user-list, #product-list{
+    margin-top: 29px;
+}
+
+.BtnCrearUsu{
+    float: right;
+    position: relative;
+    top: 4px;
+}
+
+table{
+    margin-top: 10px;
+}
+
+#search-user-code, #search-product-code{
+    width: 10%;
+
+}
+#ver_carrito{
+    float: right;
+}
+
+#ver_carrito img{
+    width: 26px;
+}
+
+#login img{
+    width: 18px;
+}
+
+
+
+
+
+
